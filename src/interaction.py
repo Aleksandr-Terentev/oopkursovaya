@@ -44,9 +44,9 @@ def find_vacancies_by_keyword(hh_api):
 
     matched_vacancies = [
         v for v in vacancies
-        if (v['snippet'].get('responsibility') and keyword in v['snippet']['responsibility'].lower()) or
-           (v['snippet'].get('requirement') and keyword in v['snippet']['requirement'].lower()) or
-           (v['name'].lower() and keyword in v['name'].lower())
+        if (v['snippet'].get('responsibility') and keyword in v['snippet']['responsibility'].lower())
+            or (v['snippet'].get('requirement') and keyword in v['snippet']['requirement'].lower())
+            or (v['name'].lower() and keyword in v['name'].lower())
     ]
 
     if matched_vacancies:
