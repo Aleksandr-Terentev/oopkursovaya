@@ -1,4 +1,4 @@
-from src.hh_apy import HH
+from src.hh_api import HH
 
 
 def test_head_hunter_api_requests():
