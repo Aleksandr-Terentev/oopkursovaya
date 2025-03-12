@@ -3,7 +3,7 @@ from src.vacancies import Vacansies
 
 
 @pytest.fixture
-def test_vacansies():
+def test_vacancies():
     return Vacansies("Python Developer",
                      "100 000-150 000 руб.",
                      "<https://hh.ru/vacancy/123456>",

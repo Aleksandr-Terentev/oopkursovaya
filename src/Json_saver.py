@@ -4,7 +4,7 @@ from src.vacancies import Vacansies
 
 
 class JsonSaver(BaseJson):
-    def __init__(self, path_to_file='../data/JsonFile.json'):
+    def __init__(self, path_to_file='../data/test_vacancies.json'):
         self.path_to_file = path_to_file
         # with open(path_to_file, 'a', encoding='utf-8') as file:
         #     self.data = json.load(file)
