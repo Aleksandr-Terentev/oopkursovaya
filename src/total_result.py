@@ -32,6 +32,6 @@ def sort_vacancies(ranged_vacancies: list[dict]):
                   key=lambda to: to["salary"].split()[2], reverse=True)
 
 
-def get_top_vacancies(sorted_vacancies: list[dict], top: int):
+def get_top_vacancies(sorted_vacancies: list[dict], top):
     """получение количества вакансий для вывода в консоль"""
     return sorted_vacancies[0:top]

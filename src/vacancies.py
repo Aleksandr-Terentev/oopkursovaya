@@ -1,5 +1,6 @@
 class Vacansies:
     result_list = []
+    slots = ("name", "url", "snippet", "salary")
 
     def __init__(self, name, salary, url, description):
         """инициализатор класса для работы с вакансиями"""
